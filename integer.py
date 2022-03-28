@@ -20,7 +20,7 @@ def main():
     elif number == 0:
         print("Number is 0")
     else:
-        print("Uh Oh")
+        print("Uh Oh, something went wrong")
 
     print("\nDone.")
 
