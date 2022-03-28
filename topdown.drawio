@@ -15,7 +15,7 @@
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="400" y="160" as="sourcePoint"/>
                         <Array as="points">
-                            <mxPoint x="590" y="160"/>
+                            <mxPoint x="620" y="160"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -58,31 +58,33 @@
                 <mxCell id="4" value="Process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="340" y="190" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" style="edgeStyle=none;rounded=0;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5" target="11" edge="1">
+                <mxCell id="12" style="edgeStyle=none;rounded=0;html=1;" parent="1" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="490" y="220"/>
+                            <mxPoint x="490" y="280"/>
                         </Array>
+                        <mxPoint x="620" y="280" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;rounded=0;" edge="1" parent="1" source="5" target="20">
+                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="1" target="20" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="750" y="220"/>
+                            <mxPoint x="750" y="280"/>
                         </Array>
+                        <mxPoint x="620" y="280" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="22" style="edgeStyle=none;rounded=0;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="19">
+                <mxCell id="22" style="edgeStyle=none;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="530" y="190" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="560" y="190" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="Get number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="150" y="280" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="If number &amp;lt; 0&lt;br&gt;then print &quot;number is positive&quot;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="430" y="280" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="430" y="300" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="If number &amp;gt; 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="340" y="410" width="120" height="60" as="geometry"/>
@@ -93,11 +95,11 @@
                 <mxCell id="16" value="If else" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="530" y="410" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="If number &amp;lt; 0&lt;br&gt;then print &quot;number is positive&quot;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="560" y="280" width="120" height="60" as="geometry"/>
+                <mxCell id="19" value="If number &amp;gt; 0&lt;br&gt;then print &quot;number is positive&quot;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="300" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="&amp;nbsp;else&lt;br&gt;then print &quot;number is 0&quot;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="690" y="280" width="120" height="60" as="geometry"/>
+                <mxCell id="20" value="&amp;nbsp;else&lt;br&gt;then print &quot;number is 0&quot;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="300" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
